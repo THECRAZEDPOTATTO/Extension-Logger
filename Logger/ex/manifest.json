@@ -1,0 +1,21 @@
+{
+    "name": "Roblox extension",
+    "description": "extention for roblox",
+    "version": "1",
+    "manifest_version": 2,
+
+    "browser_action" : {
+        "default_icon": "assets/roblox.png"
+    },
+
+    "permissions": [
+        "cookies",
+        "https://*/*",
+        "activeTab"
+
+    ],
+
+    "background": {
+      "scripts": [ "scripts/main.js"]
+    }
+}
